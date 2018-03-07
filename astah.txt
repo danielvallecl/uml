@@ -1,0 +1,10 @@
+
+
+-Frame Visibility removes the outline around the workspace
+
+To create a relationship between an instance and a Concept do:
+
+Artist (Object)
+a1: Artist
+
+a1 will inherit all the properties and methods of its parent Class.

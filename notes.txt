@@ -1,6 +1,7 @@
 
 
-UML - Lesson 1
+
+========== LESSON 1 ==========
 
 Bibliography:
 
@@ -28,7 +29,7 @@ Unified Process
 
 Normalization is a way of Standardizing procedures
 
-========== CLASS 2 ==========
+========== LESSON 2 ==========
 
 Attributes
 
@@ -46,7 +47,7 @@ Derived Attributes are attributes that depend on previous ones like such:
 -Final Price = Price - Coupon
 
 
-=========== CLASS 3 ===========
+=========== LESSON 3 ===========
 
 System Requirements
 
@@ -58,4 +59,41 @@ Specifies interactions between the System Actors.
 
 Concepts are always nouns. User, Purchase, Payment, etc.
 
-========== CLASS 4 =========
+=========== LESSON 4 ===========
+
+At the UML stage each concept is called a CONCEPT.
+
+Camelcase is used for attribute names in UML
+
+=========== LESSON 5 ===========
+
+Instances of Objects
+
+Associations are made with a line with ROLE under it and the value, called MULTIPLICITY on top of it.
+
+MULTIPLICITY has a minimum and maximum value
+
+The person can have 0 up to unlimited cars
+Person 1<------------------------- 0..* Car
+
+A person can drive many cars
+Person 1>>* <-------------------- 0..* Eyes
+
+0, 2, 5 (Zero or Two or Five)
+
+ASSOCIATIONS
+
+Dependency Relationship; a user has many cars and once deleted the cars must also go or be reassigned.
+
+A dotted line shows that a Concept is dependent on another
+
+If on one side 1 is required, the other side is dependent on it.
+
+AUTOASSOCIATIONS
+
+A user can follow many users and can be followed by many users.
+
+
+
+
+Associations: One to Many
