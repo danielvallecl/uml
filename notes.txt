@@ -1,0 +1,61 @@
+
+
+UML - Lesson 1
+
+Bibliography:
+
+Patterns of Enterprise Application Architecture, Martin Fowler
+
+Domain is the field which is being worked on.
+
+Domain Model
+
+  Structured Languages and OO Languages have different diagram systems.
+
+Domain Model Abstraction Level: Conceptual, Logic, Design
+
+Conceptual Analysis - Discovers business requirements and their relations regardless of what system is used.
+
+System Analyst describes the relationships and entities but still regardless of Programming Paradigm or Technology.
+
+Project Director describes the entities but tied to a Programming Paradigm
+
+A Class has a Name, Attributes and Methods/Services, which are the actions the Class takes
+
+Analysis described the PROBLEM, Design describes the SOLUTION.
+
+Unified Process
+
+Normalization is a way of Standardizing procedures
+
+========== CLASS 2 ==========
+
+Attributes
+
+  Should not have multivalues
+  Cannot be composed of several attributes, like a long form address
+
+At the Conceptual Model Classes don't have Methods described yet.
+
+<<unique>> identifies which attributes are unique
+
+Derived Attributes are attributes that depend on previous ones like such:
+
+-Price
+-Coupon
+-Final Price = Price - Coupon
+
+
+=========== CLASS 3 ===========
+
+System Requirements
+
+Use cases
+
+A structured document that specifies the trade of information between the systems.
+
+Specifies interactions between the System Actors.
+
+Concepts are always nouns. User, Purchase, Payment, etc.
+
+========== CLASS 4 =========
