@@ -93,7 +93,26 @@ AUTOASSOCIATIONS
 
 A user can follow many users and can be followed by many users.
 
+CONCEPTS AND ASSOCIATIONS
 
+If the association has the same name as the Concept add it in plural.
 
+When the class must be independent it shouldn't require an association.
 
-Associations: One to Many
+=============WHOLE/PART RELATIONSHIP=============
+
+AGGREGATION and COMPOSITION
+
+AGGREGATION is when a class is both a child and a part of a whole but it's not unique.
+It's drawn with an empty diamond.
+
+CAR <--------- Tire
+PERSON <----------- Finger
+
+COMPOSITION is when a concept is unique to the parent Concept and an integral part of it.
+It is drawn with a solid diamond. The numericality is usually 0 or 1.
+
+PERSON <------------ Brain
+PERSON <------------ SIN Number
+
+===============ASSOCIATION CLASS===============
