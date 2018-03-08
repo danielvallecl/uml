@@ -116,3 +116,23 @@ PERSON <------------ Brain
 PERSON <------------ SIN Number
 
 ===============ASSOCIATION CLASS===============
+
+An association instance is referenced by both the Unique IDs of their associations.
+The association should also be unique.
+
+Rose played by Kate Winslet is identified by Actor: Kate Winslet and Movie: Titanic
+
+An association will always have one numericality at the left side and many on the right side.
+
+============ENUMERATIONS===============
+
+Considered a half-way idea between a Concept and an Attribute
+
+They are composed of a concept that has a finite number of possible values, whose number are meaningful to the business at hand.
+
+PAYMENT:
+<<enum constant>>WAITING FOR PAYMENT: int
+<<enum constant>>SENT: int
+<<enum constant>>DELIVERED: int
+<<enum constant>> RETURNED: int
+<<enum constant>> CANCELED: int
