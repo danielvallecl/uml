@@ -168,10 +168,19 @@ An ABSTRACT PARENT class that cannot be instantiated and only gives birth to chi
 
 The INHERITANCE ARROW goes from the child classes towards the parent class. It's an empty arrow.
 
-
-
 ============PRIMITIVE===========
 
 It's a part of a more complex Concept, like Location,
 
 Is an attribute that does not change
+
+============DIAGRAMMING===========
+
+Concepts of similar standing usually are represented in a similar size and level.
+
+============WEAK ENTITY===========
+
+In a relational database, a weak entity is an entity that cannot be uniquely identified by its attributes alone; therefore, it must use a foreign key in conjunction with its attributes to create a primary key.
+The foreign key is typically a primary key of an entity it is related to.
+
+<<weak>> can be put above the title to identify a Weak Entity.
