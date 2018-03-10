@@ -184,3 +184,12 @@ In a relational database, a weak entity is an entity that cannot be uniquely ide
 The foreign key is typically a primary key of an entity it is related to.
 
 <<weak>> can be put above the title to identify a Weak Entity.
+
+============DIRECTED ASSOCIATION===========
+
+In UML models, directed association relationships are associations that are navigable in only one direction.
+A directed association indicates that control flows from one classifier to another; for example an actor to a use case. This flow of control means that only one of the association ends specifies navigability.
+
+If you use association end names, you do not typically need to name an association. You can, however, name any association to describe the nature of the relationship between the two classifiers.
+
+A directed association is displayed as a solid line with an arrow that indicates the direction of navigation.
