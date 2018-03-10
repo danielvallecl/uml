@@ -210,3 +210,7 @@ Representational State Transfer (REST), or RESTful, web services provide interop
 ==========POINTER=========
 
 A variable has an address in the system, that is the pointer.
+
+=========CRLF============
+
+Carriage Return Line Feed

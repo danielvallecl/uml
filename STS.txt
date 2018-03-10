@@ -5,3 +5,9 @@ The default port is 8080.
 In application.properties you can change the localhost port like such:
 
   server.port=${port:8081}
+
+CategoryResources.
+
+Cmd + Shift + O imports resources after you have specified them like such:
+
+@RestController
