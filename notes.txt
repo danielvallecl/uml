@@ -128,6 +128,9 @@ An association will always have one numericality at the left side and many on th
 
 Considered a half-way idea between a Concept and an Attribute
 
+Enumerations are declared as constants and they are already written in all CAPS at the UML level.
+They are attributes that are STATIC.
+
 They are composed of a concept that has a finite number of possible values, whose number are meaningful to the business at hand.
 
 PAYMENT:
@@ -136,3 +139,39 @@ PAYMENT:
 <<enum constant>>DELIVERED: int
 <<enum constant>> RETURNED: int
 <<enum constant>> CANCELED: int
+
+DAY OF THE WEEK:
+<<enum constant>> Sunday: int
+<<enum constant>> Monday: int
+<<enum constant>> Tuesday: int
+<<enum constant>> Wednesday: int
+<<enum constant>> Thursday: int
+<<enum constant>> Friday: int
+<<enum constant>> Saturday: int
+
+Most modern languages save dates in the Unix Timestamp.
+
+
+=======INHERITANCE========
+
+Is there a generic Concept that can capture two other concepts such as Nurse or Doctor?
+
+Nurse, Doctor, Surgeon EXTENDS the parent class of PERSON.
+
+Car, Truck or Motorcycle EXTENDS the parent class of VEHICLE.
+
+If the difference is not big enough it can be simplified into simply a different attribute.
+
+Total Inheritance is Preferred to Partial Inheritance.
+
+An ABSTRACT PARENT class that cannot be instantiated and only gives birth to child classes is represented with its title in ITALICS.
+
+The INHERITANCE ARROW goes from the child classes towards the parent class. It's an empty arrow.
+
+
+
+============PRIMITIVE===========
+
+It's a part of a more complex Concept, like Location,
+
+Is an attribute that does not change
