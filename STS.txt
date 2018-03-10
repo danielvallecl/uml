@@ -1,0 +1,7 @@
+
+
+The default port is 8080.
+
+In application.properties you can change the localhost port like such:
+
+  server.port=${port:8081}

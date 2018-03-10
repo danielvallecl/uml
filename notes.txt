@@ -1,6 +1,5 @@
 
 
-
 ========== LESSON 1 ==========
 
 Bibliography:
@@ -193,3 +192,21 @@ A directed association indicates that control flows from one classifier to anoth
 If you use association end names, you do not typically need to name an association. You can, however, name any association to describe the nature of the relationship between the two classifiers.
 
 A directed association is displayed as a solid line with an arrow that indicates the direction of navigation.
+
+They are represented by a regular one way arrow.
+
+============CANDIDATE KEY===========
+
+A Candidate Key is unique but is not the Primary Key.
+
+============ACID===========
+
+(Atomicity, Consistency, Isolation, Durability)
+
+============REST===========
+
+Representational State Transfer (REST), or RESTful, web services provide interoperability between computer systems on the Internet. REST-compliant web services allow the requesting systems to access and manipulate textual representations of web resources by using a uniform and predefined set of stateless operations. Other kinds of web services, such as WSDL and SOAP, expose their own arbitrary sets of operations.[1]
+
+==========POINTER=========
+
+A variable has an address in the system, that is the pointer.
