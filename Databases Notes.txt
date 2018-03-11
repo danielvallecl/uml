@@ -23,3 +23,73 @@ DML - Data Manipulation Language
 SQL - Structured Query Language
 
 A Database is composed of relations or tables
+
+Relation Algebra Query
+
+πid Τgpa > 3.7 ^ (Name = 'Stanford')
+
+Select Student.ID From Student, Apply Where Student.ID=Apply.ID AND GPA>3.7 and college='Stanford'
+
+XML = Extensible Markup Language
+
+=========Relational Database vs XML=========
+
+Structure
+  A relational model has a series of tables. XML has a hierarchical structure.
+
+Schema
+  In Relational systems the schema is predefined. XML is flexible and self describing.
+
+Ordering
+  The Relational System has no ordering. XML has an implied ordering.
+
+============
+
+============DTDs===========
+
+DTDs: Document Type Descriptors, a form of validating XMLs.
+
+Example of a DTR
+  <!ELEMENT Book (Title, Authors, Remark?)>
+
+CDATA describes numbers while PCDATA describes text.
+
+The order in which elements appear on the DTD matters and the XML must be conformed to it.
+
+==========XSD - XML Schema Definition============
+
+XSD is written in XML.
+
+==============JSON==============
+
+Json is more appropriate to semi-structured data.
+
+JavaScript Object Notation
+
+JSON is Recursive, it can be called from within itself.
+
+Arrays have lists of values.
+Objects are enclosed in {} and are composed of label value relationships, often called properties.
+
+JSON is used in NoSQL systems.
+
+
+==========SQL============
+
+Pronounced "Sequel"
+
+Select A1, A2, ..., An
+From R1, R2, ..., Rm
+Where condition
+
+The DISTINCT command removes duplicate results.
+
+where major like '%bio%' will find all entries with the 'bio' keyword.
+
+Union, Intersect and Except operators
+
+============Table Variables==========
+
+select Student.ID, sName, GPA, Apply.Name, enrollment
+from Student S, College C, Apply A                      S, C  and A are variables
+Where A.ID = S.ID and A.Name = C.Name;
