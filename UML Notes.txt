@@ -128,7 +128,7 @@ An association will always have one numericality at the left side and many on th
 Considered a half-way idea between a Concept and an Attribute
 
 Enumerations are declared as constants and they are already written in all CAPS at the UML level.
-They are attributes that are STATIC.
+They are attributes that are STATIC and predictable. Examples are States, Provinces, etc.
 
 They are composed of a concept that has a finite number of possible values, whose number are meaningful to the business at hand.
 

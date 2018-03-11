@@ -1,0 +1,25 @@
+
+
+==========Introduction to Databases=========
+
+DMBS - Database Management System
+
+Concurrency Control -
+
+Physical Data Independence - The way the data is laid on the disk is independent.
+
+High Level Languages have a declarative syntax.
+
+Reliability  - 99.99999%
+
+Data Model: How the data is structured.
+
+Schema vs Data
+
+DDL - Data Definition Language
+
+DML - Data Manipulation Language
+
+SQL - Structured Query Language
+
+A Database is composed of relations or tables
