@@ -177,3 +177,33 @@ Atomicity: Every transaction is executed all or nothing.
 Consistency:
 Isolation:
 Durability:
+
+========Dirty Read==========
+
+Data written by an uncommitted transaction
+
+===========Triggers===========
+
+Enrollment > 35.000 -> Reject all Applicants
+
+============Referential Integrity===============
+
+Restrict the allowable data and make sure data is properly contained in all tables
+
+Tables must be dropped bottom to top in terms of hierarchy. 
+
+Cascading is the act of deleting a tuple from several joined tables.
+
+create table College(Name text, sate text, enrollment in, primary key (Name, state));
+
+Creating a table with a foreign key
+
+create table College primary key name;
+create table Student primary key ID;
+
+  create table Apply(ID int references Student(ID)),
+  Name text references College(Name),
+
+===========HLR============
+
+Home Location Register
