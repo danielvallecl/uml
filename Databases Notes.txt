@@ -86,10 +86,54 @@ The DISTINCT command removes duplicate results.
 
 where major like '%bio%' will find all entries with the 'bio' keyword.
 
-Union, Intersect and Except operators
+=========Union, Intersect and Except==========
 
-============Table Variables==========
+Union gets the Two Groups, Female and Brazilian
+
+Intersect Gets the Intersection of Two Groups, ie, people who are Female and Brazilian
+
+Except gets everything BUT the specified query.
+
+============Table Relations==========
 
 select Student.ID, sName, GPA, Apply.Name, enrollment
 from Student S, College C, Apply A                      S, C  and A are variables
 Where A.ID = S.ID and A.Name = C.Name;
+
+==========Subqueries===========
+
+Subqueries are nested SELECT statements.
+
+In sequel the != operator is written like such:
+
+  where S2.Name <> S1.Name
+
+A subquery must always return a single value or a tuple.
+
+========DISTINCT==============
+
+Finds only unique entries
+
+  select count(distinct ID)
+
+In SQL a "variable" is called a relation, it is declared with "as"
+
+========RELATION===========
+
+We must specify what relation two tables have:
+
+  select Name, major, GPA
+  from Student, Apply
+  where Student.ID = Apply.ID
+  order by Name, major;
+
+==========INSERT==============
+
+A Tautology is the saying of the same true thing twice in different ways.
+
+insert into College values ('York University', 'ON')
+
+========COMMUTATIVITY AND ASSOCIATIVITY========
+
+Commutativity (A operation B) = (B operation A)
+Associativity (A operation B) operation C = A operation
