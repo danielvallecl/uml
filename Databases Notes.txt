@@ -137,3 +137,43 @@ insert into College values ('York University', 'ON')
 
 Commutativity (A operation B) = (B operation A)
 Associativity (A operation B) operation C = A operation
+
+=========UML===========
+
+RDBMS - Relational Database Management System
+
+5 Concepts
+
+Classes
+Associations
+Association Classes
+Subclasses
+Composition & Aggregation
+
+Associations for an item are always on the other side.
+
+STUDENTS 20.000 ------------> 1..5 COLLEGES
+
+Association Class
+
+Indexes
+
+Indexes are the primary way to increase speeds in Databases.
+
+Indexes are build either with Balanced Trees or Hash tables.
+
+Many Databases automatically build indexes based on a Primary Key or Unique attributes.
+
+=========TRANSACTIONS=========
+
+Concurrent transactions
+
+A transaction is a sequence of one or more SQL operations treated as a unit.
+
+
+==========ACID=============
+
+Atomicity: Every transaction is executed all or nothing.
+Consistency:
+Isolation:
+Durability:
