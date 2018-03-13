@@ -156,8 +156,6 @@ STUDENTS 20.000 ------------> 1..5 COLLEGES
 
 Association Class
 
-Indexes
-
 Indexes are the primary way to increase speeds in Databases.
 
 Indexes are build either with Balanced Trees or Hash tables.
@@ -186,11 +184,14 @@ Data written by an uncommitted transaction
 
 Enrollment > 35.000 -> Reject all Applicants
 
+Enforce integrity constraints
+
+
 ============Referential Integrity===============
 
 Restrict the allowable data and make sure data is properly contained in all tables
 
-Tables must be dropped bottom to top in terms of hierarchy. 
+Tables must be dropped bottom to top in terms of hierarchy.
 
 Cascading is the act of deleting a tuple from several joined tables.
 
@@ -207,3 +208,35 @@ create table Student primary key ID;
 ===========HLR============
 
 Home Location Register
+
+=========Views============
+
+Physical, Conceptual, Logical
+
+To create a view:
+
+  Create View Vname as <Query>
+
+The schema of the view is based on the structure of the Query
+
+Most Views are used as read only.
+
+Views can't be modified because they are not stored.
+
+========GRANTING PRIVILEGES==========
+
+Revoke privs on R From users
+
+=========RECURSION==============
+
+  with Recursive
+  R1 as (query-1),
+  R2 as (query-2),
+
+Linear Recursion vs Nonlinear RECURSION
+
+
+On Nonlinear queries look cleaner
+They converge faster
+
+=========NoSQL==============
