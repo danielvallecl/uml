@@ -239,4 +239,21 @@ Linear Recursion vs Nonlinear RECURSION
 On Nonlinear queries look cleaner
 They converge faster
 
-=========NoSQL==============
+===========NoSQL==============
+
+The definition means "Not Only SQL"
+
+Flexible schema.
+Quicker and cheaper to set up.
+Massive scalability.
+Less consistency.
+
+Types
+
+MapReduce framework
+Key-value stores
+Document stores
+Graph database stores
+
+
+MapReduce divides problems into subproblems
