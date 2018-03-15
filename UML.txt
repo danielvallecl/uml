@@ -1,0 +1,56 @@
+
+UML Sketching vs UML Blueprint
+
+
+Waterfall Process:
+
+Analysis, Design, Coding and Testing
+
+Iterative:
+
+Modules are done all at once.
+
+Shall vs Should requirements.
+
+Shall are essentials and Should would be nice.
+
+An Actor is an entity that performs an Action, it does not be to be a human.
+
+=======Use Case========
+
+General Use Cases have Specific branches.
+
+=======Triggers=======
+
+The system is in IDLE MODE when it is waiting triggers.
+
+BACKGROUND HANDLER
+
+1.Machine receives a card
+
+2.User enters a PIN
+
+Steps of Execution:
+
+1.Customer Inserts Card
+
+1A.Card is Invalid
+
+1B. Eject card
+
+2.Card is Validated
+
+3.Customer Enters Pin
+
+==========CLASS DIAGRAMS==========
+
+Behaviours
+
+- In front of attributes means private
++ In front of attributes means public
+# Protected means that child classes have access to attributes
+~ Package can be called
+
+=========ABSTRACT CLASSES========
+
+Abstract Methods are also drawn using italics

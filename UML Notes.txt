@@ -219,8 +219,13 @@ Carriage Return Line Feed
 
 Classifier
 
+======STEREOTYPES=========
+
+
 ======CONSTRAINTS==========
 
 Constraints are often show in curly brackets
 
 {startDate -> endDate}
+
+==========================
