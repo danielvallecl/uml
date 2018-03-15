@@ -214,3 +214,13 @@ A variable has an address in the system, that is the pointer.
 =========CRLF============
 
 Carriage Return Line Feed
+
+===============UML Diagrams with Enterprise Architect================
+
+Classifier
+
+======CONSTRAINTS==========
+
+Constraints are often show in curly brackets
+
+{startDate -> endDate}
