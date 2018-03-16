@@ -1,0 +1,33 @@
+UML Reminders
+
+A <<stereotype> is a kind of functionality.
+
+Primary Actor initiates the use of the system
+
+Secondary actor reacts
+
+USE CASE DIAGRAMS
+
+A Use Case is a complete operation within the program. It is also externally perceptible.
+
+Relationships
+
+Association
+Include (if you sneeze you close your eyes). INCLUDE is mandatory.
+Extend (saying "Bless you" is an extension). EXTEND is optional
+
+Generalization (Inheritance)
+
+A pulse can be counted on the rising edge or the falling edge.
+
+A DUTY CYCLE is the interval between pulses.
+
+OVERFLOW is space of memory reserved for backups and emergencies.
+
+===============================
+
+The measure and the concentrator communicate between each other using LORA.
+
+Water Intelligent Metering
+
+RTC - Real Time Clock
