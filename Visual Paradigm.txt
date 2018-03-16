@@ -1,0 +1,23 @@
+
+
+==========VISUAL PARADIGM===========
+
+Tasifier assigns tasks to developers.
+
+The Format Button allows you to customize the appearance of any shape.
+
+Turning points can be used by holding SHIFT.
+
+BPMN - Business Process Model and Notation
+
+Business Process Model and Notation (BPMN) is a graphical representation for specifying business processes in a business process model.
+
+==========3 MAJOR TYPES OF DIAGRAMS========
+
+Structure Diagrams
+
+Behavior Diagrams/Activity Diagram
+
+  Similar in style to the BPMN notation.
+
+Interaction Diagrams
