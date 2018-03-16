@@ -1,7 +1,6 @@
 
 UML Sketching vs UML Blueprint
 
-
 Waterfall Process:
 
 Analysis, Design, Coding and Testing
